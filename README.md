@@ -1,16 +1,25 @@
-# capturing_and_playing_audio
+# Recorder & Audio Player
 
-A new Flutter project.
+A Flutter Project to capture and play audio (Android & IOS).
 
-## Getting Started
+<p float="left">
+  <img src="./readme/image-big-1.png" width="300"/>
+  <img src="./readme/image-big-2.png" width="300"/>
+  <img src="./readme/image-big-3.png" width="300"/>
+  <img src="./readme/image-big-4.png" width="300"/>
+</p>
+<p float="left">
+  <img src="./readme/image-small-1.png" width="200" />
+  <img src="./readme/image-small-2.png" width="200" />
+  <img src="./readme/image-small-3.png" width="200" />
+  <img src="./readme/image-small-4.png" width="200" />
+</p>
 
-This project is a starting point for a Flutter application.
+## Languages, Frameworks and Libraries Used
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter, Dart
+- flutter_sound_lite
+- flutter_glow
+- permission_handler
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### License MIT

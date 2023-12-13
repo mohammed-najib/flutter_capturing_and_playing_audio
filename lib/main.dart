@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'screens/countdown/countdown_page.dart';
 import 'screens/home_page.dart';
 
 void main() {
@@ -14,11 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Capturing & Playing Audio Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: const HomePage(),
-      // home: const CountdownPage(),
     );
   }
 }

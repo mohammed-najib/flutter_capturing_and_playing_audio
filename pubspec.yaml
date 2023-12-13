@@ -12,9 +12,9 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
 
-  flutter_sound_lite: ^8.5.0
-  flutter_glow: ^0.2.0
-  permission_handler: ^9.2.0
+  flutter_sound_lite: ^8.5.0 # Android, iOS, Web
+  flutter_glow: ^0.3.0 # Android, iOS, Web, macOS, Windows, Linux
+  permission_handler: ^11.1.0 # Android, iOS, Web, Windows
 
 dev_dependencies:
   flutter_test:

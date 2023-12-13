@@ -4,8 +4,6 @@ import '../apis/sound_player.dart';
 import '../apis/sound_recorder.dart';
 import 'widgets/timer_widget.dart';
 
-// got it from Johannes Mike (YouTube) [Flutter Tutorial - Making An Audio Player App [2021]]
-
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -64,8 +62,8 @@ class _HomePageState extends State<HomePage> {
       ),
       style: ElevatedButton.styleFrom(
         minimumSize: const Size(175.0, 50.0),
-        primary: primary,
-        onPrimary: onPrimary,
+        backgroundColor: primary,
+        foregroundColor: onPrimary,
       ),
     );
   }
@@ -99,7 +97,6 @@ class _HomePageState extends State<HomePage> {
 
   Widget _buildPlayer() {
     final text = recorder.isRecording ? 'Now Recording' : 'Press To Record';
-    // final animate = recorder.isRecording;
 
     return CircleAvatar(
       radius: 100.0,
@@ -113,6 +110,7 @@ class _HomePageState extends State<HomePage> {
             const Icon(
               Icons.mic,
               size: 32.0,
+              color: Colors.white,
             ),
             TimerWidget(controller: timerController),
             const SizedBox(height: 8.0),
@@ -121,6 +119,7 @@ class _HomePageState extends State<HomePage> {
               style: const TextStyle(
                 fontSize: 16.0,
                 fontWeight: FontWeight.bold,
+                color: Colors.white,
               ),
             ),
           ],

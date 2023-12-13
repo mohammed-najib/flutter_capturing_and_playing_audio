@@ -4,8 +4,6 @@ import 'package:flutter/material.dart';
 
 import 'widgets/button_widget.dart';
 
-// got it from Johannes Mike (YouTube) [Flutter Tutorial - Simple Stopwatch Timer [2021] Countdown & Countup Timer]
-
 class CountdownPage extends StatefulWidget {
   const CountdownPage({Key? key}) : super(key: key);
 
